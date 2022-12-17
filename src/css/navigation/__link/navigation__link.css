@@ -1,0 +1,14 @@
+.navigation__link:link,
+.navigation__link:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  font-weight: 900;
+  transition: opacity 0.3s;
+}
+
+.navigation__link:hover,
+.navigation__link:active {
+  opacity: 0.75;
+}

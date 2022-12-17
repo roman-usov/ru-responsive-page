@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="src/css/general.css" rel="stylesheet" />
+
+    <link href="src/css/general/button/button.css" rel="stylesheet" />
+
+    <link href="src/css/general/container/container.css" rel="stylesheet" />
+    <link
+      href="src/css/general/background/_darkest/background_darkest.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/general/background/_dark/background_dark.css"
+      rel="stylesheet"
+    />
+
+    <link href="src/css/header/header.css" rel="stylesheet" />
+    <link href="src/css/header/__toggle/header__toggle.css" rel="stylesheet" />
+    <link
+      href="src/css/header/__hamburger/header__hamburger.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/header/__hamburger/_opened/header__hamburger_opened.css"
+      rel="stylesheet"
+    />
+
+    <link href="src/css/general/logo/logo.css" rel="stylesheet" />
+    <link href="src/css/general/logo/__img/logo__img.css" rel="stylesheet" />
+
+    <link href="src/css/navigation/navigation.css" rel="stylesheet" />
+    <link
+      href="src/css/navigation/__button/navigation__button.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/navigation/__item/navigation__item.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/navigation/__link/navigation__link.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/navigation/__menu/navigation__menu.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/navigation/__menu/_primary/navigation__menu_primary.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/navigation/__menu/_secondary/navigation__menu_secondary.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/navigation/_visibility/navigation_visibility_visible.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/navigation/_visibility/navigation_visibility_invisible.css"
+      rel="stylesheet"
+    />
+
+    <link href="src/css/hero/hero.css" rel="stylesheet" />
+    <link
+      href="src/css/hero/__heading-container/hero__heading-container.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/hero/__content-container/hero__content-container.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/hero/__main-title/hero__main-title.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/hero/__main-title/_gold/hero__main-title_gold.css"
+      rel="stylesheet"
+    />
+    <link href="src/css/hero/__button/hero__button.css" rel="stylesheet" />
+    <link href="src/css/hero/__text/hero__text.css" rel="stylesheet" />
+
+    <script src="src/main.js" type="module" defer></script>
+    <title>Responsive Layouts Don't Have to Be a Struggle</title>
+  </head>
+  <body>
+    <div class="background_darkest">
+      <header class="header container">
+        <button class="header__toggle" aria-label="open navigation">
+          <span class="header__hamburger"></span>
+        </button>
+        <a class="logo" href="#">
+          <img
+            class="logo__img"
+            src="src/img/logo.svg"
+            alt="conquering responsive layouts"
+          />
+        </a>
+        <nav class="navigation navigation_visibility_invisible">
+          <ul class="navigation__menu navigation__menu_primary">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">home</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">about</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">contact</a>
+            </li>
+          </ul>
+          <ul class="navigation__menu navigation__menu_secondary">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">sign in</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link button navigation__button" href="#"
+                >sign up</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <div class="background_dark">
+        <section class="hero container">
+          <div class="hero__heading-container">
+            <h1 class="hero__main-title">
+              Responsive layouts
+              <span class="hero__main-title_gold"
+                >don't have to be a struggle</span
+              >
+            </h1>
+          </div>
+          <div class="hero__content-container">
+            <p class="hero__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a class="button hero__button" href="#">i want to learn</a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

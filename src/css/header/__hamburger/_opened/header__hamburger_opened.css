@@ -1,0 +1,30 @@
+.header__hamburger_opened {
+  /*height: 50%;*/
+  transform: rotate(90deg);
+}
+
+/*.header__hamburger_opened,*/
+/*.header__hamburger_opened::before,*/
+/*.header__hamburger_opened::after {*/
+/*  display: block;*/
+/*  width: 3px;*/
+/*  margin: 0 auto;*/
+/*  background-color: #ffffff;*/
+/*}*/
+
+/*.header__hamburger_opened::before,*/
+/*.header__hamburger_opened::after {*/
+/*  content: "";*/
+/*  height: 100%;*/
+/*  position: absolute;*/
+/*}*/
+
+/*.header__hamburger_opened::before {*/
+/*  left: -6px;*/
+/*  !*transform: translateX(-6px);*!*/
+/*}*/
+
+/*.header__hamburger_opened::after {*/
+/*  right: -6px;*/
+/*  !*transform: translate(6px, -100%);*!*/
+/*}*/

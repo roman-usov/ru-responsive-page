@@ -1,0 +1,5 @@
+.navigation_visibility_invisible {
+  height: 0;
+  visibility: hidden;
+  margin-top: 0;
+}

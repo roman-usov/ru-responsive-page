@@ -1,0 +1,30 @@
+.header__hamburger {
+  position: relative;
+  width: 50%;
+}
+
+.header__hamburger,
+.header__hamburger::before,
+.header__hamburger::after {
+  display: block;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.header__hamburger::before,
+.header__hamburger::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+}
+
+.header__hamburger::before {
+  bottom: 6px;
+  /*transform: translateY(-6px);*/
+}
+
+.header__hamburger::after {
+  top: 6px;
+  /*transform: translateY(3px);*/
+}

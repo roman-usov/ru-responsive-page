@@ -1,0 +1,17 @@
+.button:link,
+.button:visited {
+  display: inline-block;
+  background-color: #a59678;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  font-weight: 900;
+  transition: opacity 0.3s;
+}
+
+.button:hover,
+.button:active {
+  opacity: 0.75;
+}
