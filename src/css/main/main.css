@@ -1,0 +1,10 @@
+.main {
+  padding: 5em 0;
+}
+
+@media (min-width: 1200px) {
+  .main {
+    display: flex;
+    gap: 3em;
+  }
+}

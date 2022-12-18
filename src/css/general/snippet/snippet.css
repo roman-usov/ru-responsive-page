@@ -1,0 +1,9 @@
+.snippet {
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 0.8em;
+}
+
+.snippet:last-child {
+  margin-bottom: 0;
+}

@@ -24,3 +24,15 @@ headerToggleEl.addEventListener("click", () => {
     closeMobileNavMenu();
   }
 });
+
+const changeVisibilityOnResize = () => {
+  if (window.innerWidth > 977) {
+    navigationEl.classList.remove("navigation_visibility_invisible");
+    navigationEl.classList.add("navigation_visibility_visible");
+  } else {
+    navigationEl.classList.add("navigation_visibility_invisible");
+    navigationEl.classList.remove("navigation_visibility_visible");
+  }
+};
+
+window.addEventListener("resize", changeVisibilityOnResize);

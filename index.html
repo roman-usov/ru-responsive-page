@@ -22,8 +22,22 @@
       href="src/css/general/background/_dark/background_dark.css"
       rel="stylesheet"
     />
+    <link
+      href="src/css/general/background/_grey/background_grey.css"
+      rel="stylesheet"
+    />
+    <link href="src/css/general/list/__item/list__item.css" rel="stylesheet" />
+    <link
+      href="src/css/general/list/__title/list__title.css"
+      rel="stylesheet"
+    />
+    <link href="src/css/general/list/list.css" rel="stylesheet" />
 
     <link href="src/css/header/header.css" rel="stylesheet" />
+    <link
+      href="src/css/header/__container/header__container.css"
+      rel="stylesheet"
+    />
     <link href="src/css/header/__toggle/header__toggle.css" rel="stylesheet" />
     <link
       href="src/css/header/__hamburger/header__hamburger.css"
@@ -91,6 +105,75 @@
     <link href="src/css/hero/__button/hero__button.css" rel="stylesheet" />
     <link href="src/css/hero/__text/hero__text.css" rel="stylesheet" />
 
+    <link href="src/css/general/snippet/snippet.css" rel="stylesheet" />
+    <link
+      href="src/css/general/snippet/__text/snippet__text.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/general/snippet/__text/_dark/snippet__text_dark.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/general/snippet/__text/_white/snippet__text_white.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/general/snippet/__title/snippet__title.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/general/snippet/__title/_gold/snippet__title_gold.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/general/snippet/__title/_white/snippet__title_white.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/general/snippet/_dark/snippet_dark.css"
+      rel="stylesheet"
+    />
+    <link href="src/css/layout-approach/layout-approach.css" rel="stylesheet" />
+
+    <link href="src/css/main/main.css" rel="stylesheet" />
+    <link href="src/css/general/article/article.css" rel="stylesheet" />
+    <link
+      href="src/css/general/article/__img/article__img.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/general/article/__title/article__title.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/general/article/__text/article__text.css"
+      rel="stylesheet"
+    />
+
+    <link href="src/css/aside/aside.css" rel="stylesheet" />
+
+    <link href="src/css/footer/footer.css" rel="stylesheet" />
+    <link href="src/css/footer/__link/footer__link.css" rel="stylesheet" />
+    <link href="src/css/footer/__text/footer__text.css" rel="stylesheet" />
+    <link href="src/css/footer/__title/footer__title.css" rel="stylesheet" />
+    <link
+      href="src/css/footer/__title/_main/footer__title_main.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/footer/__title/_small/footer__title_small.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/footer/__snippet/footer__snippet.css"
+      rel="stylesheet"
+    />
+    <link
+      href="src/css/footer/__snippet-container/footer__snippet-container.css"
+      rel="stylesheet"
+    />
+
     <script src="src/main.js" type="module" defer></script>
     <title>Responsive Layouts Don't Have to Be a Struggle</title>
   </head>
@@ -100,36 +183,38 @@
         <button class="header__toggle" aria-label="open navigation">
           <span class="header__hamburger"></span>
         </button>
-        <a class="logo" href="#">
-          <img
-            class="logo__img"
-            src="src/img/logo.svg"
-            alt="conquering responsive layouts"
-          />
-        </a>
-        <nav class="navigation navigation_visibility_invisible">
-          <ul class="navigation__menu navigation__menu_primary">
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">home</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">about</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">contact</a>
-            </li>
-          </ul>
-          <ul class="navigation__menu navigation__menu_secondary">
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">sign in</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link button navigation__button" href="#"
-                >sign up</a
-              >
-            </li>
-          </ul>
-        </nav>
+        <div class="header__container">
+          <a class="logo" href="#">
+            <img
+              class="logo__img"
+              src="src/img/logo.svg"
+              alt="conquering responsive layouts"
+            />
+          </a>
+          <nav class="navigation navigation_visibility_invisible">
+            <ul class="navigation__menu navigation__menu_primary">
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">home</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">about</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">contact</a>
+              </li>
+            </ul>
+            <ul class="navigation__menu navigation__menu_secondary">
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">sign in</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link button navigation__button" href="#"
+                  >sign up</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
     </div>
     <main>
@@ -151,6 +236,151 @@
             <a class="button hero__button" href="#">i want to learn</a>
           </div>
         </section>
+      </div>
+      <div class="background_grey">
+        <section class="layout-approach container">
+          <div class="snippet">
+            <h2 class="snippet__title snippet__title_gold">Mobile-first</h2>
+            <p class="snippet__text snippet__text_dark">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="snippet">
+            <h2 class="snippet__title snippet__title_gold">Efficient</h2>
+            <p class="snippet__text snippet__text_dark">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="snippet">
+            <h2 class="snippet__title snippet__title_gold">Done right</h2>
+            <p class="snippet__text snippet__text_dark">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+        </section>
+      </div>
+      <section class="main container">
+        <article class="article">
+          <h2 class="article__title">It doesn’t have to be so hard</h2>
+          <p class="article__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam.
+          </p>
+          <img
+            class="article__img"
+            src="src/img/the-image.jpg"
+            alt="responsive design sketches"
+          />
+          <p class="article__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam.
+          </p>
+        </article>
+        <aside class="aside">
+          <div class="snippet snippet_dark">
+            <h2 class="snippet__title snippet__title_white">
+              Cherish responsiveness
+            </h2>
+            <p class="snippet__text snippet__text_white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+          <div class="snippet snippet_dark">
+            <h2 class="snippet__title snippet__title_white">Break it down</h2>
+            <p class="snippet__text snippet__text_white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+          <div class="snippet snippet_dark">
+            <h2 class="snippet__title snippet__title_white">Work you way up</h2>
+            <p class="snippet__text snippet__text_white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+        </aside>
+      </section>
+      <div class="background_dark">
+        <footer class="footer container">
+          <h2 class="footer__title footer__title_main">
+            Just scratching the surface
+          </h2>
+          <div class="footer__snippet-container">
+            <div class="footer__snippet">
+              <h3 class="footer__title footer__title_small">
+                About our company
+              </h3>
+              <p class="footer__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
+
+            <div class="footer__snippet">
+              <h3 class="footer__title footer__title_small">Getting around</h3>
+              <ul class="list">
+                <li class="list__item">
+                  <a class="footer__link" href="#">Home</a>
+                </li>
+                <li class="list__item">
+                  <a class="footer__link" href="#">About</a>
+                </li>
+                <li class="list__item">
+                  <a class="footer__link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__snippet">
+              <h3 class="footer__title footer__title_small">Other things</h3>
+              <ul class="list">
+                <li class="list__item">
+                  <a class="footer__link" href="#">Lorem ipsum</a>
+                </li>
+                <li class="list__item">
+                  <a class="footer__link" href="#">Dolor</a>
+                </li>
+                <li class="list__item">
+                  <a class="footer__link" href="#">Sit amet</a>
+                </li>
+                <li class="list__item">
+                  <a class="footer__link" href="#">Consectetur</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__snippet">
+              <h3 class="footer__title footer__title_small">And more</h3>
+              <ul class="list">
+                <li class="list__item">
+                  <a class="footer__link" href="#">Lorem ipsum</a>
+                </li>
+                <li class="list__item">
+                  <a class="footer__link" href="#">Dolor</a>
+                </li>
+                <li class="list__item">
+                  <a class="footer__link" href="#">Sit amet</a>
+                </li>
+                <li class="list__item">
+                  <a class="footer__link" href="#">Consectetur</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
       </div>
     </main>
   </body>

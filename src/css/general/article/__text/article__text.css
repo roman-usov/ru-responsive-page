@@ -1,0 +1,10 @@
+.article__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3125rem;
+  color: #2e323f;
+  margin-bottom: 3em;
+}
+
+.article__text:last-child {
+  margin-bottom: 0;
+}

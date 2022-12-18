@@ -1,3 +1,9 @@
 .navigation__item + .navigation__item {
   margin-top: 1.5em;
 }
+
+@media (min-width: 977px) {
+  .navigation__item + .navigation__item {
+    margin-top: 0;
+  }
+}

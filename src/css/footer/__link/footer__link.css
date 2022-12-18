@@ -1,0 +1,13 @@
+.footer__link:link,
+.footer__link:visited {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  transition: opacity 0.3s;
+}
+
+.footer__link:hover,
+.footer__link:active {
+  opacity: 0.75;
+}

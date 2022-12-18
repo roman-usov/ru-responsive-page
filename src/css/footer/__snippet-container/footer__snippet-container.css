@@ -1,0 +1,21 @@
+@media (min-width: 977px) {
+  .footer__snippet-container {
+    display: flex;
+    gap: 3em;
+  }
+
+  .footer__snippet-container > div:first-child {
+    flex-basis: 40%;
+    padding-right: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer__snippet-container {
+    gap: 7em;
+  }
+
+  .footer__snippet-container > div:first-child {
+    padding-right: 2em;
+  }
+}

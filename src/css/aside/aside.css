@@ -1,0 +1,22 @@
+.aside {
+  padding: 5em 0;
+}
+
+@media (min-width: 977px) {
+  .aside {
+    display: flex;
+    gap: 1em;
+  }
+
+  .aside > * {
+    flex-basis: 100%;
+    align-content: center;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aside {
+    flex-direction: column;
+  }
+}
