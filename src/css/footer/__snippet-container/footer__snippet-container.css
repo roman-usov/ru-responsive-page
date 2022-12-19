@@ -12,7 +12,7 @@
 
 @media (min-width: 1200px) {
   .footer__snippet-container {
-    gap: 7em;
+    gap: 5em;
   }
 
   .footer__snippet-container > div:first-child {
